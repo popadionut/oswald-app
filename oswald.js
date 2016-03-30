@@ -78,7 +78,12 @@ if (Meteor.isClient) {
         "click .delete": function () {
             Tasks.remove(this._id);
         }
+
     });
+
+    Accounts.ui.config({ // 60
+        passwordSignupFields: "USERNAME_ONLY" // 61
+    }); //
 
 }
 if (Meteor.isServer) {

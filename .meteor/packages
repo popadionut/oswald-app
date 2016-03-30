@@ -21,4 +21,3 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 
 accounts-ui-unstyled
 accounts-password
-accounts-ui
